@@ -4,6 +4,8 @@
 
 rm /etc/apt/sources.list
 
+rm  -rf /etc/apt/sources.list.d/*
+
 echo '
 deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
 deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
