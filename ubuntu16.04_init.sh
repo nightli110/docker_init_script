@@ -21,7 +21,7 @@ deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted univ
 
 apt-get update
 
-apt-get install -y vim wget
+apt-get install -y vim wget  python-qt4
 
 pipconf_dir="~/.pip/"
 
