@@ -29,8 +29,8 @@ if [ ! -d "$pipconf_dir" ];
 then
 	mkdir -p ~/.pip
 	echo '
-	[global]
-	index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 	' > ~/.pip/pip.conf;
 fi
 echo 'docker init finish'
