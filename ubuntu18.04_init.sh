@@ -19,7 +19,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted univer
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
     ' > /etc/apt/sources.list
 
-apt-get update
+apt-get update --fix-missing
 
 apt-get install -y vim wget  python-qt4
 
@@ -29,7 +29,7 @@ if [ ! -d "$pipconf_dir" ];
 then
 	mkdir -p ~/.pip
 	echo -e '
-    [global]
+    \n[global]
     \nindex-url = https://pypi.tuna.tsinghua.edu.cn/simple
 	' > ~/.pip/pip.conf;
 fi
