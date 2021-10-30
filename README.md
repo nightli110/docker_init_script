@@ -1,5 +1,5 @@
 # docker_init_script
-ubuntu docker init scropt
+ubuntu docker init script
 
 docker初始化脚本
 国内使用dokcer 更新source.list，pip源为国内源脚本提高下载速度  
